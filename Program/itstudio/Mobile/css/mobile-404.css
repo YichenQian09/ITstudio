@@ -1,0 +1,86 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+ body { background:#fff; color:#333; font-size:12px; font-family: "黑体", sans-serif; }
+ td,th,caption { font-size:14px; }
+ h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+ address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+ a {  text-decoration:none; }
+ a:hover { text-decoration:none; }
+ img { border:none; }
+ ol,ul,li { list-style:none; }
+ input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+ table { border-collapse:collapse; } 
+
+ .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+ .clearfix { *zoom:1; }
+body{
+	position:relative;
+}
+ .logo{
+ 	width:2.2rem;
+ 	height:auto;
+ 	display:block;
+ 	position:absolute;
+ 	top:0.3rem;
+ 	left:0.3rem;
+ 	z-index:30;
+ }
+ .mobile404{
+ 	width:66.7%;
+ 	margin:0 auto;
+ 	font-size:0.32rem;
+ 	color:rgb(213,129,79);
+ 	position:relative;
+ }
+ .number-404{
+ 	padding-top:2.1rem;
+ 	width:4.7rem;
+ 	margin:0 auto;
+ 	margin-bottom:0.8rem;
+ }
+ .number-404 img{
+ 	display:block;
+ 	float:left;
+ 	height:1.8rem;
+ 	width:auto;
+ }
+ .left-4{
+ 	transform:rotate(-17deg);
+	-ms-transform:rotate(-17deg); 	/* IE 9 */
+	-moz-transform:rotate(-17deg); 	/* Firefox */
+	-webkit-transform:rotate(-17deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-17deg); 	/* Opera */
+	margin-top:0.15rem;
+ }
+ .right-4{
+	transform:rotate(17deg);
+	-ms-transform:rotate(17deg); 	/* IE 9 */
+	-moz-transform:rotate(17deg); 	/* Firefox */
+	-webkit-transform:rotate(17deg); /* Safari 和 Chrome */
+	-o-transform:rotate(17deg); 	/* Opera */
+ }
+ .center-0{
+ 	margin-left:0.5rem;
+ 	margin-right:0.5rem;
+ 	margin-top:-0.2rem;
+ }
+ .mobile404 h1{
+ 	margin:0 auto;
+ 	margin-bottom:0.3rem;
+ 	text-align:center;
+ 	font-size:0.38rem;
+ 	letter-spacing: 0.02rem;
+ }
+ .mobile404 h2{
+ 	margin:0 auto;
+ 	/* margin-bottom:1.6rem; */
+ 	text-align:center;
+ }
+ .robot-404{
+ 	display:block;
+ 	width:4.5rem;
+ 	margin:0 auto;
+ 	height:auto;
+ 	position:absolute;
+ 	bottom:0;
+ }
+

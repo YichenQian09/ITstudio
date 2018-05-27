@@ -1,0 +1,114 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+ body { background:#fff; color:#333; font-size:12px; font-family:  "微软雅黑","黑体",sans-serif; }
+ td,th,caption { font-size:14px; }
+ h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+ address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+ a {  text-decoration:none; }
+ a:hover { text-decoration:none; }
+ img { border:none; }
+ ol,ul,li { list-style:none; }
+ input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+ table { border-collapse:collapse; } 
+
+ .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+ .clearfix { *zoom:1; }
+
+.slide-left li span{
+	color:black;
+} 
+.container-404{
+	width:100%;
+	position:relative;
+	color:rgb(212,129,79);
+	font-size:32px;
+}
+.logo-404{
+	display:block;
+	position:absolute;
+	top:22.5px;
+	left:15.5%;
+	height:60px;
+	width:auto;
+	float:left;
+}
+.navigation{
+	float:left;
+}
+.container-404 h1{
+	/* margin-top:70px; */
+	/* 	margin-left:17%; */
+	position:absolute;
+	top:145px;
+	left:17%;
+	letter-spacing:1px;
+	font-family: "黑体";
+}
+.container-404 h2{
+	/* margin-left:17%;
+	margin-top:40px; */
+	font-size:26px;
+	font-family: "黑体";
+	position:absolute;
+	top:223px;
+	left:17%;
+}
+.main-404{
+	width:750px;
+	margin:0 auto;
+	position:absolute;
+	height:300px;
+	bottom:0;
+}
+.left-4{
+	display:block;
+	left:0;
+	position:absolute;
+	bottom:65px;
+	height:200px;
+	width:auto;
+}
+.right-4{
+	display:block;
+	right:0;
+	position:absolute;
+	bottom:65px;
+	height:200px;
+	width:auto;
+}
+.robot-404{
+	width:315px;
+	left:217.5px;
+	position:absolute;
+	bottom:0;
+}
+.real-robot{
+	width:100%;
+	height:auto;
+	position:absolute;
+}
+.real-spring{
+	width:45px;
+	height:67px;
+	margin:0 auto;
+	bottom:0;
+	position:absolute;
+	left:135px;
+}
+@media screen and (min-width:1600px){
+	.container-404 h1{
+		top:255px;
+	}
+	.container-404 h2{
+		top:333px;
+	}
+}
+@media screen and (max-width:1310px){
+	.logo-404{
+		display:none;
+	}
+}
+@media screen and (max-width:980px){
+	.container-404{
+		width:980px;
+	}
+}

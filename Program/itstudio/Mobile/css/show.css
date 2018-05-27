@@ -1,0 +1,201 @@
+* { padding: 0; margin: 0; border: 0; } 
+html {
+    background: none repeat scroll 0 0 #f3f3fd!important;
+    color: #000000;
+    }
+body, div, dl, dt, dd, ul, ol, li, h2, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+fieldset, img {
+    border: 0 none;
+    }
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+    }
+li {
+    list-style: none outside none;
+    }
+caption, th {
+    text-align: left;
+    }
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    }
+
+q:before, q:after {
+    content: "";
+    }
+abbr, acronym {
+    border: 0 none;
+    font-variant: normal;
+    }
+sup {
+    vertical-align: text-top;
+    }
+sub {
+    vertical-align: text-bottom;
+    }
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    }
+input, textarea, select {
+    }
+legend {
+    color: #000000;
+    }
+body {
+    font: 16px/1.231 '微软雅黑',arial,helvetica,clean,sans-serif;
+    }
+select, input, button, textarea {
+    font: 99% '微软雅黑',arial,helvetica,clean,sans-serif;
+    }
+table {
+    font-size: inherit;
+    }
+pre, code, kbd, samp, tt {
+    font-family: monospace;
+    line-height: 100%;
+    }
+a {
+    color: black;
+    text-decoration: none;
+    }
+a:hover, a:focus {
+    text-decoration: none;
+    }
+strong {
+    font-weight: bold;
+    }
+input[type="submit"] {
+    cursor: pointer;
+    }
+button {
+    cursor: pointer;
+    }
+.clearfix { *zoom:1; }
+ul li{
+    list-style-type:none:
+    }
+.clearfix:after{
+        content: ".";
+        display: block;
+        height: 0; 
+        clear: both;
+        visibility: hidden;     
+}
+
+.container{
+	margin: 0 auto;
+    color: #333;
+
+	
+}
+.header{
+    width: 100%;
+    height: 8rem;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+.bring{
+    margin-top: 1rem;
+    font-size:0.26rem; 
+    line-height: 0.35rem;
+    text-align: center;
+}
+.welcome{
+    margin-top: 1.7rem;
+    text-align: center;
+     font-size:0.26rem; 
+}
+.welcome span{
+    color: #458bac;
+}
+.department-show{
+    margin-top: 1.7rem;
+    text-align: center;
+     font-size:0.28rem; 
+}
+.bottom-line{
+    display: block;
+    margin:0 auto;
+    background-color:#458bac; 
+    margin-top: 0.2rem;
+    width: 0.4rem;
+    height: 0.04rem;
+}
+.department{
+    position: relative;
+    height: 2.9rem;
+}
+.department h1{
+    position: absolute;
+    width: 6rem;
+    height: 1rem;
+    font-size: 0.18rem;
+    text-align: center;
+    top:1.2rem;
+    left: 50%;
+    line-height: 0.26rem;
+    margin-left: -3rem;
+    text-align: justify;
+    text-justify: inter-ideograph;
+
+}
+.department h2{
+    position: absolute;
+    font-size: 0.24rem;
+    text-align: center;
+    top:0.5rem;
+    left: 0.4rem;
+    line-height: 0.26rem;
+    color:#458bac;
+    vertical-align:middle;
+
+
+}
+.departmentFirst,.departmentThird
+{
+    background-color: #333;
+    color: white;
+}
+
+.join{
+    height: 2.7rem;
+    background-color: #333;
+    position: relative;
+}
+.join img{
+    position: absolute;
+    top: 0.6rem;
+    width: 0.6rem;
+    height: 0.3rem;
+    left: 50%;
+    margin-left: -0.3rem;
+}
+.join a{
+    position: absolute;
+    margin:0 auto;
+    display: block;
+    width: 3.4rem;
+    height: 0.55rem;
+    background-color:#458bac;
+    font-size: 0.26rem;
+    border-radius: 0.10rem; 
+    text-align: center;
+    line-height: 0.55rem;
+    top:1.2rem;
+    left: 50%;
+    margin-left: -1.7rem;
+}

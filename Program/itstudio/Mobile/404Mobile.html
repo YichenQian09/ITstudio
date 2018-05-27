@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>啊哦~你走丢了哟</title>
+	<link rel="stylesheet" href="/itstudio/Mobile/css/mobile-404.css">
+</head>
+<body>
+	<img class="logo" src="/itstudio/Mobile/images/logo-black.png" alt="">
+	<div class="mobile404">
+		<div class="number-404 clearfix">
+			<img class="left-4" src="/itstudio/Mobile/images/404-4.png" alt="">
+			<img class="center-0" src="/itstudio/Mobile/images/404-0.png" alt="">
+			<img class="right-4" src="/itstudio/Mobile/images/404-4.png" alt="">
+		</div>
+		<h1>啊哦~您访问的页面不存在~</h1>
+		<h2>It looks like you are lost!</h2>
+		<img class="robot-404" src="/itstudio/Mobile/images/whole-robot.png" alt="">
+	</div>
+	<script src="/itstudio/Mobile/js/jquery-3.1.1.min.js"></script>
+	<script>
+		$(function(){
+			var cWidth= document.body.clientWidth;
+			$("html").css({
+				"fontSize":100*(cWidth/750)+"px"
+			});
+			$(".mobile404").css({
+				"height":$(window).height()
+			});
+			$(".robot-404").css({
+				"left":($(".mobile404").width()-$(".robot-404").width())/2
+			});
+			$(".logo").bind("touchstart",function(){
+				window.location.href="/Mobile/itstudio-mobile.html";
+			});
+		})
+	</script>
+</body>
+</html>

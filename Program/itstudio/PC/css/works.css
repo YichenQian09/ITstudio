@@ -1,0 +1,157 @@
+
+.mid-line-short{
+	position: absolute;
+	left: 50%;
+	margin-left: -1px;
+	width: 2px;
+	background-color:#e94e1b; 
+
+}
+.poster-main{ 
+	position:relative;
+	height: 60%;
+	width:80%;
+	left: 50%;
+	top:10px;
+	margin-left: -450px;
+}
+.poster-main a,.poster-item img{
+	display:block;
+	height: 100%;
+	width: 100%;
+}
+
+.poster-item{
+	height: 100%;
+ 	position:absolute;
+ 	left:0;
+ 	top:0;
+}
+.poster-btn{
+	 position:absolute;
+	 top:0;
+	 width:20%;
+	 height:100%;
+	 z-index:10;
+	 cursor:pointer;  
+}
+.poster-prev-btn{
+	left:0; 
+}
+.poster-next-btn{
+	left: 80%;
+}
+
+.top-title{
+	position:relative;
+	width:100px;
+	height: 50px;
+	top: 0px;
+	left: 50%;
+	margin-left: -50px;
+}
+.top-title h1{
+	font-size: 18px;
+
+	text-align: center;
+}
+.top-title span{
+	position: relative;
+	display: block;
+	height: 3px;
+	width: 20px;
+	left:50%;
+	top: 2px;
+	margin-left: -10px;
+	background-color:#e94e1b; 
+	text-align: center;
+}
+.top-title h2{
+	position: relative;
+	margin-top: 5px;
+	font-size: 24px;
+	text-align: center;
+}
+#next-page-background2{
+	width: 40px;
+	height: 102px;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	margin-left:-17px;
+}
+#next-page-arrow-bottom2{
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	bottom: 51px;
+	left: 50%;
+	margin-left:-26px;
+}
+.next-page-arrow-left{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: -510px;
+	top:-41px;
+	cursor: pointer;
+
+}
+.next-page-arrow-right{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: -510px;
+	top:-41px;
+	cursor: pointer;
+}
+.next-btn-circle
+{
+	width: 80px;
+	position: absolute;
+	right: -518px;
+	top: -50px;
+	cursor: pointer;
+}
+.prev-btn-circle
+{
+	width: 80px;
+	position: absolute;
+	left:-518px;
+	top: -50px;
+}
+.Url{
+	font-size: 18px;
+	z-index: 100;
+	position: relative;
+	line-height: 25px;
+	text-align: center;
+}
+.Url:hover {
+	color:#e94e1b; 
+}
+.show-box{
+	position: relative;
+	top: 100px;
+}
+.cover{
+	opacity: 0.5;
+	position: absolute;
+	background-color: white;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+@media (min-width:0px) and (max-width:1366px)
+{
+    .top-title h1{
+    	font-size: 17px;
+    }
+    .Url{
+    	font-size: 16px;
+    }
+    .top-title h2{
+    	font-size: 22px;
+    }
+}

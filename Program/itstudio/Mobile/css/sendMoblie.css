@@ -1,0 +1,206 @@
+* { padding: 0; margin: 0; border: 0; } 
+html {
+    background: none repeat scroll 0 0 #f2f2fc!important;
+    color: #000000;
+    }
+body, div, dl, dt, dd, ul, ol, li, h2, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+fieldset, img {
+    border: 0 none;
+    }
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+    }
+li {
+    list-style: none outside none;
+    }
+caption, th {
+    text-align: left;
+    }
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    }
+
+q:before, q:after {
+    content: "";
+    }
+abbr, acronym {
+    border: 0 none;
+    font-variant: normal;
+    }
+sup {
+    vertical-align: text-top;
+    }
+sub {
+    vertical-align: text-bottom;
+    }
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    }
+input, textarea, select {
+    }
+legend {
+    color: #000000;
+    }
+body {
+    font: 16px/1.231 '微软雅黑',arial,helvetica,clean,sans-serif;
+    }
+select, input, button, textarea {
+    font: 99% '微软雅黑',arial,helvetica,clean,sans-serif;
+    }
+table {
+    font-size: inherit;
+    }
+pre, code, kbd, samp, tt {
+    font-family: monospace;
+    line-height: 100%;
+    }
+a {
+    color: black;
+    text-decoration: none;
+    }
+a:hover, a:focus {
+    text-decoration: none;
+    }
+strong {
+    font-weight: bold;
+    }
+input[type="submit"] {
+    cursor: pointer;
+    }
+button {
+    cursor: pointer;
+    }
+.clearfix { *zoom:1; }
+ul li{
+    list-style-type:none:
+    }
+.clearfix:after{
+        content: ".";
+        display: block;
+        height: 0; 
+        clear: both;
+        visibility: hidden;     
+}
+
+.container{
+	margin: 0 auto;
+	color: white;
+	
+}
+.formHeader{
+     height: 0.7rem;
+	background: #2a74a3;
+	text-align: center;
+    line-height:  0.7rem;
+
+}
+#theForm {
+    position: relative;
+	background: #fafafa;
+	border-radius: 0.1rem;
+    overflow: hidden;
+    width: 6.2rem;
+    height: 8.6rem;
+    margin: 0 auto;
+    font-size: 0.3rem;
+
+}
+
+#theForm input{
+	background: #fafafa;
+	outline:none;
+	color:  #cccbc8;
+    	height: 0.7rem;
+    	line-height:  0.7rem;
+    	margin-top: 0.1rem;
+   	 width: 82%;
+    	padding-right: 4%;
+   	 margin-left: 5%;
+    	padding-left:  4%;
+    	font-size: 0.21rem;
+	border-bottom: 0.02rem solid #cccbc8;
+}
+.introduction{
+     vertical-align:middle;
+    font-size: 0.21rem;
+     margin-top: 0.1rem;
+	border: none!important;
+	background: #fafafa;
+	overflow: hidden;
+	outline:none;
+	color:  #cccbc8;
+    height: 1.8rem;
+    margin-left: 4%;
+    width: 90%;
+    resize:none;
+    
+}
+
+.department{
+    font-size: 0.21rem;
+     margin-top: 0.1rem;
+	float: left;
+	border-bottom: 0.02rem solid #cccbc8;
+	color:  #cccbc8;
+	text-align: center;
+	cursor: pointer;
+
+}
+.logo{
+
+    display: block;
+    width: 3rem;
+    height: 1rem;
+    margin: 0.3rem auto;
+    margin-bottom:0.2rem;
+    cursor: pointer;
+}
+.department{
+    margin-left: 5%;
+    width: 43%;
+    height: 0.7rem;
+    line-height: 0.7rem; 
+}
+.departmentRight{
+    margin-left: 4%;
+}
+.introductionBox{
+    width: 90%;
+    margin:0 auto;
+     border-bottom: 0.02rem solid #cccbc8;
+}
+.IT{
+    display: block;
+    margin: 0.3rem  auto;
+    font-size:0.3rem ;
+    color: #cccbc8;
+    text-align: center;
+}
+#theForm input.submit{
+	appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    border-radius: 0.05rem;
+    display: block;
+    background: #2a74a3;
+    color:white;
+    text-align: center;
+    outline:none;
+    height:  0.6rem;
+    line-height:  0.6rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+
+}

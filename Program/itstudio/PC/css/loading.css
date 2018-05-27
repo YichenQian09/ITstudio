@@ -1,0 +1,78 @@
+body{
+	position:relative;
+}
+.loading-page{
+	position:absolute;
+	width:100%;
+	z-index:101;
+}
+.loading-main{
+	top:165px;
+	position:absolute;
+	width:140px;
+	left:45%;
+	height:270px;
+}
+.loading-robot{
+	position:absolute;
+	top:0;
+	width:100%;
+}
+.loading-robot img{
+	display:block;
+	width:90%;
+	position:absolute;
+	left:5%;
+	height:auto;
+}
+.loading-message{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align:center;
+	height:44px;
+	line-height:44px;
+	font-size:33px;
+	font-family:"Agency FB";
+	font-weight:bold;
+	letter-spacing:1px;
+	color:rgb(244,216,108);
+}
+.loading-ellipsis{
+	position:absolute;
+	top:72px;
+	z-index:102;
+	width:34%;
+	left:31%;
+}
+.loading-ellipsis img{
+	display:block;
+	width:14%;
+	height:auto;
+	position:absolute;
+	display:none;
+}
+@media screen and (min-width:1600px)
+{
+	.loading-main{
+		top:250px;
+		height:380px;
+		width:195px;
+	}
+	.loading-message{
+		height:60px;
+		line-height:60px;
+		font-size:38px;
+	}
+	.loading-ellipsis{
+		top:101px;
+		left:32%;
+	}
+		
+}
+ #fullpage{
+	visibility:hidden;
+}
+.navigation-section3{
+	visibility:hidden;
+} 
